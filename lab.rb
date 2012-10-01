@@ -3,7 +3,7 @@
 
 suits = {:h => "Hearts", :d => "Diamonds", :s => "Spades", :c => "Clubs" }
 
-puts suits
+puts suits.values
 
 # display the rank and suit for each card, as "9 of Hearts", etc.
 # don't worry about "jack" or "king" yet, just go up to "13 of Hearts", etc.
